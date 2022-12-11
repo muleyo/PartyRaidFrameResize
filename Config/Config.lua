@@ -1,8 +1,6 @@
 local PFR_Config = PFR:NewModule("PFR_Config")
 
 function PFR_Config:OnEnable()
-    local LSM = LibStub("LibSharedMedia-3.0")
-
     -- Create Menu
     local options = {
         type = 'group',
