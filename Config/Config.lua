@@ -25,8 +25,8 @@ function PFR_Config:OnEnable()
                         max = 300,
                         step = 0.1,
                         set = function(_, val)
-                            PFR:Update()
                             PFR_DB.height = val
+                            PFR:Update()
                         end,
                         get = function()
                             return PFR_DB.height
@@ -42,8 +42,8 @@ function PFR_Config:OnEnable()
                         max = 300,
                         step = 0.1,
                         set = function(_, val)
-                            PFR:Update()
                             PFR_DB.width = val
+                            PFR:Update()
                         end,
                         get = function()
                             return PFR_DB.width
