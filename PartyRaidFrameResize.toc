@@ -4,7 +4,7 @@
 ## Title: |cff009cffParty RaidFrame Resize|r
 ## Notes: Allows the user to resize the Party Raidframe and exceed the width/height slider limits
 ## SavedVariables: PFRDB
-## X-Curse-Project-ID: 729146
+## X-Curse-Project-ID: 733047
 
 ## LIBS
 Libs\Load.xml
