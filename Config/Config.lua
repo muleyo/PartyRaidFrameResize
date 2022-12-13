@@ -26,7 +26,11 @@ function PFR_Config:OnEnable()
                         step = 0.1,
                         set = function(_, val)
                             PFR_DB.height = val
-                            PFR:Update()
+                            PFR:Update(CompactPartyFrameMember1)
+                            PFR:Update(CompactPartyFrameMember2)
+                            PFR:Update(CompactPartyFrameMember3)
+                            PFR:Update(CompactPartyFrameMember4)
+                            PFR:Update(CompactPartyFrameMember5)
                         end,
                         get = function()
                             return PFR_DB.height
@@ -43,7 +47,11 @@ function PFR_Config:OnEnable()
                         step = 0.1,
                         set = function(_, val)
                             PFR_DB.width = val
-                            PFR:Update()
+                            PFR:Update(CompactPartyFrameMember1)
+                            PFR:Update(CompactPartyFrameMember2)
+                            PFR:Update(CompactPartyFrameMember3)
+                            PFR:Update(CompactPartyFrameMember4)
+                            PFR:Update(CompactPartyFrameMember5)
                         end,
                         get = function()
                             return PFR_DB.width
