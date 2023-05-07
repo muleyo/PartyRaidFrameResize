@@ -1,6 +1,6 @@
-## Interface: 100002
+## Interface: 100100
 ## Author: muleyo
-## Version: 1.0.3
+## Version: 1.0.4
 ## Title: |cff009cffParty RaidFrame Resize|r
 ## Notes: Allows the user to resize the Party Raidframe and exceed the width/height slider limits
 ## SavedVariables: PFRDB
